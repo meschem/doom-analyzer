@@ -26,7 +26,8 @@ class DemonSeeder extends Seeder
             'melee_threat' => -0.75,
             'weak_points' => 0,
             'speed' => -0.5,
-            'area_denial' => -0.75
+            'area_denial' => -0.75,
+            'evasiveness' => -0.75
         ]);
 
         Demon::create([
@@ -40,7 +41,8 @@ class DemonSeeder extends Seeder
             'melee_threat' => -0.75,
             'weak_points' => 0,
             'speed' => 0,
-            'area_denial' => -1
+            'area_denial' => -1,
+            'evasiveness' => -0.25
         ]);
 
         Demon::create([
@@ -54,7 +56,8 @@ class DemonSeeder extends Seeder
             'melee_threat' => 0.75,
             'weak_points' => 0,
             'speed' => -0.5,
-            'area_denial' => 0.25
+            'area_denial' => 0.25,
+            'evasiveness' => -0.75
         ]);
 
         Demon::create([
@@ -68,7 +71,8 @@ class DemonSeeder extends Seeder
             'melee_threat' => -0.25,
             'weak_points' => 1,
             'speed' => -0.25,
-            'area_denial' => 0.5
+            'area_denial' => 0.5,
+            'evasiveness' => -0.25
         ]);
 
         Demon::create([
@@ -82,7 +86,8 @@ class DemonSeeder extends Seeder
             'melee_threat' => 0.75,
             'weak_points' => 1,
             'speed' => 0.75,
-            'area_denial' => 0
+            'area_denial' => 0,
+            'evasiveness' => -0.5
         ]);
 
         Demon::create([
@@ -96,7 +101,8 @@ class DemonSeeder extends Seeder
             'melee_threat' => 0.75,
             'weak_points' => 0,
             'speed' => 0.75,
-            'area_denial' => 0.25
+            'area_denial' => 0.25,
+            'evasiveness' => -0.5
         ]);
 
         Demon::create([
@@ -110,7 +116,8 @@ class DemonSeeder extends Seeder
             'melee_threat' => 1,
             'weak_points' => 0,
             'speed' => 0.5,
-            'area_denial' => 0.25
+            'area_denial' => 0.25,
+            'evasiveness' => -0.5
         ]);
 
         Demon::create([
@@ -124,7 +131,8 @@ class DemonSeeder extends Seeder
             'melee_threat' => 0.5,
             'weak_points' => 0,
             'speed' => 0.5,
-            'area_denial' => 0
+            'area_denial' => 0,
+            'evasiveness' => 0.5
         ]);
 
         Demon::create([
@@ -138,7 +146,8 @@ class DemonSeeder extends Seeder
             'melee_threat' => 0.25,
             'weak_points' => 0,
             'speed' => 0.5,
-            'area_denial' => 0
+            'area_denial' => 0,
+            'evasiveness' => 0.75
         ]);
 
         Demon::create([
@@ -152,7 +161,8 @@ class DemonSeeder extends Seeder
             'melee_threat' => 0.5,
             'weak_points' => 0,
             'speed' => 0,
-            'area_denial' => 1
+            'area_denial' => 1,
+            'evasiveness' => -0.25
         ]);
 
         Demon::create([
@@ -166,7 +176,8 @@ class DemonSeeder extends Seeder
             'melee_threat' => 0.75,
             'weak_points' => 0,
             'speed' => -0.25,
-            'area_denial' => 0
+            'area_denial' => 0,
+            'evasiveness' => -0.25
         ]);
 
         Demon::create([
@@ -180,7 +191,8 @@ class DemonSeeder extends Seeder
             'melee_threat' => 0.25,
             'weak_points' => 2,
             'speed' => -0.5,
-            'area_denial' => 0.25
+            'area_denial' => 0.25,
+            'evasiveness' => -0.75
         ]);
 
         Demon::create([
@@ -194,7 +206,8 @@ class DemonSeeder extends Seeder
             'melee_threat' => 0.25,
             'weak_points' => 1,
             'speed' => -0.5,
-            'area_denial' => 0.75
+            'area_denial' => 0.75,
+            'evasiveness' => -0.75
         ]);
 
         Demon::create([
@@ -208,7 +221,8 @@ class DemonSeeder extends Seeder
             'melee_threat' => -0.5,
             'weak_points' => 0,
             'speed' => -0.5,
-            'area_denial' => 0
+            'area_denial' => 0,
+            'evasiveness' => 0
         ]);
 
         Demon::create([
@@ -222,7 +236,8 @@ class DemonSeeder extends Seeder
             'melee_threat' => 0.5,
             'weak_points' => 0,
             'speed' => 0.75,
-            'area_denial' => 0
+            'area_denial' => 0,
+            'evasiveness' => -0.25
         ]);
 
         Demon::create([
@@ -236,7 +251,8 @@ class DemonSeeder extends Seeder
             'melee_threat' => -0.5,
             'weak_points' => 0,
             'speed' => 0.5,
-            'area_denial' => 0.75
+            'area_denial' => 0.75,
+            'evasiveness' => 0.75
         ]);
 
         Demon::create([
@@ -250,7 +266,8 @@ class DemonSeeder extends Seeder
             'melee_threat' => 0,
             'weak_points' => 0,
             'speed' => -0.75,
-            'area_denial' => 0.5
+            'area_denial' => 0.5,
+            'evasiveness' => -1
         ]);
 
         Demon::create([
@@ -264,7 +281,8 @@ class DemonSeeder extends Seeder
             'melee_threat' => 0.75,
             'weak_points' => 0,
             'speed' => 0.5,
-            'area_denial' => -0.5
+            'area_denial' => -0.5,
+            'evasiveness' => 0
         ]);
 
         Demon::create([
@@ -278,7 +296,8 @@ class DemonSeeder extends Seeder
             'melee_threat' => -0.25,
             'weak_points' => 2,
             'speed' => 0,
-            'area_denial' => 0.25
+            'area_denial' => 0.25,
+            'evasiveness' => 0
         ]);
 
         Demon::create([
@@ -292,7 +311,8 @@ class DemonSeeder extends Seeder
             'melee_threat' => 0.5,
             'weak_points' => 0,
             'speed' => 0.5,
-            'area_denial' => 0.5
+            'area_denial' => 0.5,
+            'evasiveness' => 0.75
         ]);
 
         Demon::create([
@@ -306,7 +326,8 @@ class DemonSeeder extends Seeder
             'melee_threat' => -0.25,
             'weak_points' => 1,
             'speed' => 0,
-            'area_denial' => 0.5
+            'area_denial' => 0.5,
+            'evasiveness' => 0.25
         ]);
 
         Demon::create([
@@ -320,7 +341,8 @@ class DemonSeeder extends Seeder
             'melee_threat' => 0.5,
             'weak_points' => 1,
             'speed' => 0.5,
-            'area_denial' => -0.25
+            'area_denial' => -0.25,
+            'evasiveness' => -0.25
         ]);
 
         Demon::create([
@@ -334,7 +356,8 @@ class DemonSeeder extends Seeder
             'melee_threat' => -1,
             'weak_points' => 0,
             'speed' => -0.75,
-            'area_denial' => 1
+            'area_denial' => 1,
+            'evasiveness' => -1
         ]);
     }
 }
