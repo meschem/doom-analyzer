@@ -5,6 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
+use Illuminate\Support\Str;
+
 class Demon extends Model
 {
     use HasFactory;
@@ -12,15 +14,48 @@ class Demon extends Model
     public $timestamps = false;
 
     public $fillable = [
+        'name',
+        'icon',
+        'image',
         'aggression',
         'general_priority',
-        'hit_points',
+        'defense',
+        'evasiveness',
         'damage',
+        'area_denial',
         'aerial_threat',
         'ranged_threat',
         'melee_threat',
         'weak_points',
         'speed',
-        'area_denial',
     ];
+
+    public static function comparables() 
+    {
+        return [
+            'aggression',
+            'general_priority',
+            'defense',
+            'evasiveness',
+            'damage',
+            'area_denial',
+            'aerial_threat',
+            'ranged_threat',
+            'melee_threat',
+            'weak_points',
+            'speed',
+        ];
+    }
+
+    /**
+     * Gets the file path
+     * 
+     * @return string
+     */
+    public function getFilePathAttribute ()
+    {
+        $fileName = Str::camel($this->name);
+
+        return public_path("/images/demons/$fileName.png");
+    }
 }

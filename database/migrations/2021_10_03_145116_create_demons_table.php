@@ -20,7 +20,7 @@ class CreateDemonsTable extends Migration
             $table->string('image')->nullable();
             $table->float('aggression');
             $table->float('general_priority');
-            $table->float('defenses');
+            $table->float('defense');
             $table->float('evasiveness');
             $table->float('damage');
             $table->float('area_denial');
