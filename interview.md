@@ -1,16 +1,17 @@
 ### Questions
 
-How are you all managing changes with COVID and working from home? Is it possible to work from the office if desired?
+* Design
+    How do you guys ideate with other departments?
+    How often do you get opportunities to work outside of your specific role in design?
+    
+    
+* Programming / Design
 
-What is it like working for a company like id, with a long history and hardcore fan base?
+* Production
 
-If I get this role, what would my initial work look like as I ramp up with tools and processes?
+* Leadership
 
-What is Richardson like?
-
-How do you guys ideate with other departments?
-
-What is the working relationship like with Bethesda/Zenimax?
+----------
 
 ### Other Games
 
@@ -63,6 +64,8 @@ What is the working relationship like with Bethesda/Zenimax?
         ENRAGED:
         While the Wretch doesn't take less damage when enraged, he does move quicker and attack more aggressively. His spears,
         in addition to exploding, will erupt into a lake of fire that stays on the ground for a bit.
+
+* 
 
 ### Vagrant Analysis
 
