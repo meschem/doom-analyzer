@@ -10,14 +10,22 @@
     Do you guys work directly with the id gamer community at all? How does that work?
     How do you guys manage heavier development cycles to meet release dates?
 
-    
 * Programming / Level Design
     Do you feel like there is anything special about how id builds games around design?
+    Regarding the toolset, how much flexibility does this provide for designers to come up with their own mechanics?
+    Are there any languages comparable to the scripting that designers do?
 
 * Production / UI
-
+    As a team, how do you work with design when a UI element doesn't seem to be working for a feature that requires it?
 
 * Leadership
+    What is the design teams role in influencing the direction of projects?
+
+* General
+    What's your favorite part about working at id?
+    What's it like working in the office? How connected are the teams there?
+    How involved are you with the community?
+    How do you balance the PTO benefits with hitting deadlines?
 
 ----------
 

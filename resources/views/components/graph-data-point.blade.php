@@ -1,4 +1,4 @@
-@php 
+@php
     $fullSize = "64px";
     $halfSize = "32px";
 @endphp
@@ -12,10 +12,11 @@
            height: {{ $fullSize }};
            bottom: calc({{ ($yValue + 1) / 0.02 }}% - {{ $fullSize }});
            left: calc({{ ($xValue + 1) / 0.02 }}% - {{ $halfSize }});
+
        ">
         <div class="m-auto">
             {{-- @if (file_exists($imagePath)) --}}
-                <img class="rounded-circle" src="{{ $imagePath }}" width="100%" height="100%">
+                <img class="rounded-circle border-2" src="{{ $imagePath }}" width="100%" height="100%" style="border-style: solid; border-color: {{ $borderColor }};">
             {{-- @else --}}
                 {{-- {{ $name[0] . $name[1] }} --}}
             {{-- @endif --}}

@@ -55,25 +55,68 @@
                         </div>
                     </div>
                 </form>
-                <div class=bg-light style="width: 720px; height: 720px">
-                    <div id="graph-container" class="d-flex m-auto mt-4 position-relative" style="width: 700px; height: 700px;">
+                <div class="d-flex">
+                    <div id="y-axis-high-label" class="mx-auto my-2 badge bg-danger">
+                        High general priority
+                    </div>
+                </div>
+                <div class="d-flex" style="width: 900px; height: 700px">
+                    <div class="d-flex" style="width: 100px; height: 700px">
+                        <div id="x-axis-low-label" class="my-auto badge bg-success">
+                            Low aggression
+                        </div>
+                    </div>
+                    <div class="d-flex border-2 rounded"
+                         style="
+                            width: 700px;
+                            height: 700px;
+                            background: linear-gradient(235deg, #a0101460, #08b0a060)
+                        ">
+                        <div id="graph-container" class="d-flex m-auto position-relative" style="width: 640px; height: 620px; top: -30px">
 
+                        </div>
+                    </div>
+                    <div class="d-flex" style="width: 100px; height: 700px">
+                        <div id="x-axis-high-label" class="my-auto badge bg-danger">
+                            High aggression
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex">
+                    <div id="y-axis-low-label" class="mx-auto my-2 badge bg-success">
+                        Low general priority
                     </div>
                 </div>
             </div>
         </div>
     </body>
     <script>
+        $('document').ready(function(){
+            updateGraph()
+        });
+
         function updateGraph()
         {
             let url = '/graph';
             let data = $('#graph-data').serialize()
+
+            console.log('Updating graph')
 
             $.ajax({
                 url: url,
                 data: data,
                 success: function (res) {
                     $('#graph-container').html(res)
+
+                    let xAxisLabel = $('#x-axis-property').val()
+                    let yAxisLabel = $('#y-axis-property').val()
+
+                    $('#x-axis-low-label').html('Low ' + xAxisLabel)
+                    $('#x-axis-high-label').html('High ' + xAxisLabel)
+
+                    $('#y-axis-low-label').html('Low ' + yAxisLabel)
+                    $('#y-axis-high-label').html('High ' + yAxisLabel)
 
                     var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
                     var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
