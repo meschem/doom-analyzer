@@ -3,11 +3,19 @@
 * Design
     How do you guys ideate with other departments?
     How often do you get opportunities to work outside of your specific role in design?
-    
-    
-* Programming / Design
+    How would I be assigned specific tasks or areas to work on?
+    What does the general process look like of testing and getting feedback from an idea throughout development?
 
-* Production
+    Do you all meet up outside of work often? Either for company events or just personally?
+    Do you guys work directly with the id gamer community at all? How does that work?
+    How do you guys manage heavier development cycles to meet release dates?
+
+    
+* Programming / Level Design
+    Do you feel like there is anything special about how id builds games around design?
+
+* Production / UI
+
 
 * Leadership
 
@@ -15,15 +23,27 @@
 
 ### Other Games
 
-* Hades
-* Resident Evil 8
-* Bloodborne
-* Dead Cells
-* Divinity 2
-* Axiom Verge
-* Duck Game
-* Dota 2
-* Valheim
+FPS:
+    * Dusk
+    * Amid Evil
+    * Prodeus
+    * Shadow Warrior 2
+    * Prey
+    * RE 8
+    * RE 7
+    * Quake Champions
+
+Metroidvania:
+    * Cyber Shadow
+    * Hollow Knight
+    * Touhou Luna Nights
+
+Other:
+    * Valheim
+    * Hades
+    * Divinity 2
+    * Mortal Shell
+    * Duck Game
 
 ### Other areas of critique
 
