@@ -20,3 +20,7 @@ Route::get('/graph', [DemonController::class, 'graph']);
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/vagrant', function () {
+    return view('vagrant');
+});

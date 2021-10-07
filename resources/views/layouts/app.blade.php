@@ -28,12 +28,15 @@
     @endphp
 
     <body class="antialiased">
-        <div class="d-flex mx-auto" style="width: 1200px;">
+        <div class="d-flex mx-auto vh-100" style="width: 1200px;">
             <div class="m-auto">
-                <div class="mx-auto my-3">
-                    <a href="/"><button class="mx-2 btn btn-success">Unit Comparison</button></a>
-                    <a href="/vagrant"><button class="mx-2 btn btn-success">Vagrant</button></a>
-                    <hr>
+                <div class="mx-auto">
+                    <a href="/">
+                        <button class="btn btn-success">Unit Comparison</button>
+                    </a>
+                    <a href="/vagrant">
+                        <button class="btn btn-success">Vagrant</button>
+                    </a>
                 </div>
                 <form id="graph-data" action="/graph" method="GET">
                     <div class="d-flex">
